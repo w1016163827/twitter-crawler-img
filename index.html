@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div></div>
+
+<script type="text/javascript">
+    let father = document.querySelectorAll('div')[0]
+    let imgArr = []
+    let content = document.createDocumentFragment()
+    imgArr.forEach(imgSrc=>{
+        let img = document.createElement('img')
+        img.src = imgSrc
+        img.width = 400
+        content.appendChild(img)
+    })
+    father.appendChild(content)
+</script>
+</body>
+</html>
