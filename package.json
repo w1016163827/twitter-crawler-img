@@ -1,14 +1,22 @@
 {
   "name": "twitter-crawler-img",
-  "version": "1.0.1",
-  "description": "搜光推特的日漫图",
+  "version": "1.0.3",
+  "description": "twitter-crawler-img\r =",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w1016163827/twitter-crawler-img.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/w1016163827/twitter-crawler-img/issues"
+  },
+  "homepage": "https://github.com/w1016163827/twitter-crawler-img#readme",
+  "dependencies": {
     "puppeteer": "^1.13.0"
   }
 }
